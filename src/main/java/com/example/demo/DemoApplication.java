@@ -16,6 +16,6 @@ public class DemoApplication {
 
     @GetMapping("/hello")
     public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-        return String.format("Selamlar2 pull request test 2  %s!", name);
+        return String.format("Selamlar2 pull request test 2 last  %s!", name);
     }
 }
